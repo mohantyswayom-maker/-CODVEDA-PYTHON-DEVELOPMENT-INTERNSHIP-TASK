@@ -1,0 +1,1 @@
+This is a sample text used for Word Counter Program
