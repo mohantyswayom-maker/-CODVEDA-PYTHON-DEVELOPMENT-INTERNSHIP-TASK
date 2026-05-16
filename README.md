@@ -35,7 +35,7 @@ Develop a basic calculator capable of performing arithmetic operations such as a
 - Built using core Python concepts and functions
 
 ### Project File
-`Task1_Simple_Calculator.py`
+[Level1/LEVEL1_TASK1.ipynb](Level1/LEVEL1_TASK1.ipynb)
 
 ---
 
@@ -51,7 +51,7 @@ Create a Python program that reads a text file and counts the total number of wo
 - Improved understanding of file handling in Python
 
 ### Project File
-`Task3_Word_Counter.py`
+[Level1/LEVEL1_TASK2.ipynb](Level1/LEVEL1_TASK2.ipynb)
 
 ---
 
@@ -71,7 +71,7 @@ Develop a web scraper to extract useful information such as headlines or product
 - Saved scraped data into CSV format
 
 ### Project File
-`Task2_Data_Scraper.py`
+[Level2/LEVEL2_TASK1.ipynb](Level2/LEVEL2_TASK1.ipynb)
 
 ---
 
@@ -87,9 +87,7 @@ Build a Python script that interacts with external APIs to fetch and display liv
 - Improved understanding of REST APIs and JSON data
 
 ### Project File
-`Task3_API_Integration.py`
-
----
+[Level2/LEVEL2_TASK2.ipynb](Level2/LEVEL2_TASK2.ipynb)
 
 ---
 
