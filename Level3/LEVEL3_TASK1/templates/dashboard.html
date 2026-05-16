@@ -1,0 +1,45 @@
+<h2>Task Dashboard</h2>
+
+<form method="post">
+
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit">
+        Add Task
+    </button>
+
+</form>
+
+<hr>
+
+{% for task in tasks %}
+
+<p>
+
+    {{ task.title }}
+
+    {% if task.completed %}
+
+        ✅
+
+    {% else %}
+
+        <a href="/complete/{{ task.id }}/">
+            Complete
+        </a>
+
+    {% endif %}
+
+    <a href="/delete/{{ task.id }}/">
+        Delete
+    </a>
+
+</p>
+
+{% endfor %}
+
+<a href="/logout/">
+    Logout
+</a>
